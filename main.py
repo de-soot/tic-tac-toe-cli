@@ -30,7 +30,7 @@ def X_O():
  
  
 def win():
-    # 9 total checks for 3 horizontal, vertical, and diagonal rows
+    # 8 total checks for 3 horizontal, 3 vertical, and 2 diagonal rows
     if (board[0][0] == X_or_O and board[0][1] == X_or_O and board[0][2] == X_or_O) or\
        (board[1][0] == X_or_O and board[1][1] == X_or_O and board[1][2] == X_or_O) or\
        (board[2][0] == X_or_O and board[2][1] == X_or_O and board[2][2] == X_or_O) or\
