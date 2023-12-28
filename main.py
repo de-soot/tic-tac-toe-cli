@@ -49,7 +49,6 @@ def main():
             ]
 
     count = 0
-    x_turn = False
     X_or_O = 'X'
     
     # game start
