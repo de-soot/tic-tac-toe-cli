@@ -1,4 +1,4 @@
-def display_board(board_):
+def display_board(board_: list[list]) -> None:
     for i in range(3):
         print("  " + board_[i][0] + "  │  " + board_[i][1] + "  │  " + board_[i][2])
         print("─────┼─────┼─────")
@@ -6,7 +6,7 @@ def display_board(board_):
     print("\n")
  
  
-def plot(board_, input_position_, X_or_O_):
+def plot(board_: list[list], input_position_: int, X_or_O_: str) -> int:
     if input_position_ < 1 or input_position_ > 9:
         print("Out of bounds, try again\n")
         return 1
@@ -23,7 +23,7 @@ def plot(board_, input_position_, X_or_O_):
     return 0
  
  
-def win(board_, X_or_O_):
+def win(board_: list[list], X_or_O_: str) -> bool:
     # 8 total checks for 3 horizontal, 3 vertical, and 2 diagonal rows
     return (board_[0][0] == X_or_O_ and board_[0][1] == X_or_O_ and board_[0][2] == X_or_O_) or\
            (board_[1][0] == X_or_O_ and board_[1][1] == X_or_O_ and board_[1][2] == X_or_O_) or\
@@ -35,7 +35,7 @@ def win(board_, X_or_O_):
            (board_[2][0] == X_or_O_ and board_[1][1] == X_or_O_ and board_[0][2] == X_or_O_)
 
 
-def main():
+def main() -> None:
     user_input = input("Press enter to play a game of tic-tac-toe / noughts-and-crosses or type 'quit' to exit the program : ").lower()
 
     if user_input == "quit":
@@ -57,16 +57,20 @@ def main():
         display_board(board)
         x_turn = (count % 2 == 1)
         X_or_O = ( 'X' * (x_turn) ) + ( 'O' * (not x_turn) )
- 
         print(X_or_O + "'s turn")
-        input_position = int( input("Position : ") )
-        count -= plot(board, input_position, X_or_O)
+
+        input_position = input("Position : ")
+
+        while type(input_position) != "int":
+            input_position = input("Position (must be an integer) : ")
+
+        count -= plot(board, input_position, X_or_O) # recount if move is invalid
     # game end
 
     # display results
     display_board(board)
     has_winner = win(board, X_or_O)
-    print( (X_or_O + " is the winner !\n") * ( has_winner ) + ("It's a tie !\n") * ( not has_winner ) )
+    print( (X_or_O + " is the winner !\n") * (has_winner) + ("It's a tie !\n") * (not has_winner) )
     main()
 
 if __name__ == "__main__":
