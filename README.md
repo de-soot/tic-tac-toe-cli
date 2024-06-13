@@ -13,8 +13,8 @@ Originally made for my school's computer science class homework assignment, but 
 - Made with Python
 
 ## Usage
-### Local:
+### Local
 - Download `Python 3.X.X` and `main.py` and run `main.py`.
 
-### Online:
+### Online
 - Open this link in your browser: **https://onlinegdb.com/pnxRXTdsC** and click the `Run` button.
