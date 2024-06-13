@@ -6,7 +6,7 @@ Originally made for my school's computer science class homework assignment, but 
 ## Features
 - Classic game of Tic-tac-toe
 - Follows all of the rules in the original game
-- Customisable board size
+- Customisable board size (as of v2.0.0)
 - Two-player couch gameplay
 - Runs on the command-line interface
 - Minimal ASCII art
