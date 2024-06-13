@@ -1,5 +1,5 @@
 # Tic-tac-toe CLI
-Classic game of Tic-tac-toe in the command line made with Python.
+Classic game of Tic-tac-toe in the command-line made with Python.
 
 Originally made for my school's computer science class homework assignment, but expanded to include extra features.
 
