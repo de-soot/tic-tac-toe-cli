@@ -1,12 +1,12 @@
 # Tic-tac-toe CLI
 Classic game of Tic-tac-toe in the command-line made with Python.
 
-Originally made for my school's computer science class homework assignment, but expanded to include extra features.
+Originally made for my school's computer science class homework assignment, but expanded to include some extra features for fun.
 
 ## Features
 - Classic game of Tic-tac-toe
 - Follows all of the rules in the original game
-- Customisable board size (as of v2.0.0)
+- Break free of the same old 3x3 board with a customisable board size (as of v2.0.0)
 - Two-player gameplay
 - Runs on the terminal
 - Minimal ASCII user interface
