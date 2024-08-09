@@ -9,7 +9,7 @@ Originally made for my school's computer science class homework assignment, but 
 - Break free of the same old 3x3 board with a customisable board size (as of v2.0.0)
 - Two-player gameplay
 - Runs on the terminal
-- Minimal ASCII user interface
+- Minimal ASCII user interface (scales with board size)
 - Made with Python
 
 ## Usage
