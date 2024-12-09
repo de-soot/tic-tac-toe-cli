@@ -7,7 +7,7 @@ Originally made for my school's computer science class homework assignment, but 
 - Classic game of Tic-tac-toe
 - Follows all of the rules in the original game
 - Break free of the same old 3x3 board with a customisable board size (as of v2.0.0)
-- Two-player gameplay (Single-player coming soon!)
+- Two-player gameplay
 - Runs on the terminal
 - Minimal ASCII user interface (scales with board size)
 - Made with Python
