@@ -6,15 +6,15 @@ Originally made for my school's computer science class homework assignment, but 
 ## Features
 - Classic game of Tic-tac-toe
 - Follows all of the rules in the original game
-- Break free of the same old 3x3 board with a customisable board size (as of v2.0.0)
-- Two-player gameplay
+- Break free of the same old 3x3 board with a customisable `n`x`n` board size (as of v2.0.0 release)
+- Two-player gameplay (with plans on AI vs AI and Player vs AI with minimax algorithm)
 - Runs on the terminal
 - Minimal ASCII user interface (scales with board size)
 - Made with Python
 
 # Usage
 ## Local
-Download `Python 3.X.X` and `main.py` and run `main.py`
+Download Python 3 and `main.py` and run `main.py`
 
 ## Online
 Open this link in your browser: **https://onlinegdb.com/pnxRXTdsC** and click the `Run` button.
