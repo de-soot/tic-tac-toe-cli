@@ -14,7 +14,7 @@ Originally made for my school's computer science class homework assignment, but 
 
 # Usage
 ## Local
-Download Python 3 and `main.py` from [Releases page](https://github.com/de-soot/tic-tac-toe-cli/releases/tag/latest). Then run `main.py`:
+Download Python 3 and `main.py` from [Releases page](https://github.com/de-soot/tic-tac-toe-cli/releases/latest). Then run `main.py`:
 ```sh
 python main.py
 ```
