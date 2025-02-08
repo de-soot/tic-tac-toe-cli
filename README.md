@@ -14,7 +14,10 @@ Originally made for my school's computer science class homework assignment, but 
 
 # Usage
 ## Local
-Download Python 3 and `main.py` and run `main.py`
+Download Python 3 and `main.py` from [Releases page](). Then run `main.py`:
+```sh
+python main.py
+```
 
 ## Online
 Open this link in your browser: **https://onlinegdb.com/pnxRXTdsC** and click the `Run` button.
